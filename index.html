@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6738c14537.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Developers Android</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href=""
+          ><img
+            class="logo-mobile"
+            src="https://www.gstatic.com/devrel-devsite/prod/v99fd0c828fa12c8e4ac5a683d534aa207353ab3b49583792c0a838c031276d00/android/images/lockup.svg"
+            alt=""
+        /></a>
+        <ul id="nav">
+          <a href=""
+            ><img
+              class="logo"
+              src="https://www.gstatic.com/devrel-devsite/prod/v99fd0c828fa12c8e4ac5a683d534aa207353ab3b49583792c0a838c031276d00/android/images/lockup.svg"
+              alt=""
+          /></a>
+          <li><a href="#">Platform</a></li>
+          <li><a href="#">Android Studio</a></li>
+          <li><a href="#">Google Play</a></li>
+          <li>
+            <select name="links">
+              <option value="mais">Mais</option>
+              <option value="jetpack">Jetpack</option>
+              <option value="kotlin">Kotlin</option>
+              <option value="documentos">Documentos</option>
+              <option value="noticias">Noticias</option>
+            </select>
+          </li>
+          <li id="li-language">
+            <select name="language">
+              <option value="english">English</option>
+              <option value="português">Português</option>
+            </select>
+          </li>
+          <li id="li-login"><a href="#">Fazer login</a></li>
+        </ul>
+        <div class="config">
+          <select name="language">
+            <option value="english">English</option>
+            <option value="português">Português</option>
+          </select>
+          <a href="#">Fazer login</a>
+        </div>
+        <button
+          id="btn-mobile"
+          area-label="Abrir Menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          Menu
+          <span id="hamburguer"></span>
+        </button>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div>
+          <h1>Android para desenvolvedores</h1>
+          <p>
+            Ferramentas e recursos modernos para ajudar você a criar
+            experiências que as pessoas adoram, de maneira mais rápida e fácil,
+            em todos os dispositivos Android.
+          </p>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder=" Pesquisa" />
+          </div>
+        </div>
+        <img
+        class="bot"
+          src="https://developer.android.com/images/home/billboard-bg.svg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <section class="boxes">
+      <div class="container">
+        <a href="#" class="box">
+          <i class="fa-brands fa-android"></i>
+          <h2>Download Android Studio</h2>
+          <i class="fa-solid fa-download"></i>
+        </a>
+        <a href="#" class="box">
+          <i class="fa-solid fa-gamepad"></i>
+          <h2>Abrir o Play Console</h2>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <a href="#" class="box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h2>Ver os cursos do Android</h2>
+        </a>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="container">
+        <a href="#" class="highlight-1">
+          <div>
+            <p>Destaque</p>
+            <h3>Prévia para desenvolvedores do Android 13</h3>
+            <p>
+              Prepare seus apps para a próxima versão do Android. Veja as
+              novidades, teste seus apps e envie feedback.
+            </p>
+            <button>Primeros passos</button>
+          </div>
+          <div>
+            <img
+              src="https://developer.android.com/images/home/android-logo-13-twotone-1.png"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="#" class="highlight-2">
+          <div>
+            <p>Destaque</p>
+            <h3>Conferência de desenvolvedores do Google para jogos 2022</h3>
+            <p>
+              Receba atualizações, recursos e dicas para auxiliar no ciclo de
+              desenvolvimento do seu jogo. <br />
+              Assim é mais fácil de criar jogos de alta qualidade e proporcionar
+              ótimas experiências para um número de dispositivos e públicos cada
+              vez maior.
+            </p>
+            <button>Primeros passos</button>
+          </div>
+          <div id="indie-games">
+            <img
+              src="https://developer.android.com/images/cluster-illustrations/indie-games.svg"
+              alt=""
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="Platform-Update" class="article">
+      <div class="container">
+        <div class="article-column" id="article">
+          <div class="article-section">
+            <img
+              class="article-droid"
+              src="https://developer.android.com/images/logos/android.svg"
+              alt=""
+            />
+            <h2>Atualizações da plataforma</h2>
+            <p>Fique por dentro do que está acontecendo na articlea Android</p>
+            <div class="btn-article">
+              <a href="#">Acessar a articlea Android</a>
+            </div>
+          </div>
+        </div>
+        <div class="article-column">
+          <div class="article-row">
+            <div class="article-section">
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNnogZQP4IGFjoSw7QWt1vr7MphwOi1OtRAAfCAVaNDTdnD5_CAaKhsf11nzxS_XrQ3ERet5yhpK7bs0e5YXdarv6o8iuzNYRqJ25fZrRL8TPfyBGpADg3oOrGM364foSvEdNhSTqDOF_2_TTBkRq-rElETpNAC6pOIHioH7ug3s8z8iJ_f3vWL5pTuQ/s1600/Android-whats-new-with-android-for-cars-io22-social%20%281%29.png"
+                alt=""
+              />
+              <p>BLOG</p>
+              <h2>
+                <a href="">What's new with Android for Cars</a>
+              </h2>
+              <p>
+                At Google, our work in cars has always been guided by our vision
+                of creating safe and seamless connected experiences. This work
+                would not be possible without developers like you. We're excited
+                to share some of our...
+              </p>
+            </div>
+            <div class="article-section">
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC2X0sIY_AGvgi6jD8Eh_u8rOdZXKA6PP18tnJdA6jQxR-n4bF6vsIVI2D4FTOnHAlqSY5hJShEjHcRQr7P8QM-YyP3sM3Su_KxFRdBXhg8WUIoXr74luWfFvtgYGJHWdDe_gPnwpCsLR4YhE0U88QcSqrYs3LLjp7dGqQul_pRoerJr__-mD8lUPA/s1600/Android-IO22AndroidDevRecap_Social.png"
+                alt=""
+              />
+              <p>BLOG</p>
+              <h2>
+                <a href=""
+                  >13 Things tp know for Android developers at Google I/O!</a
+                >
+              </h2>
+              <p>
+                There aren't many platforms where you can build something and
+                instantly reach billions of people around the world, not only on
+                their phones—but their TVs, cars, tablets, watches, and more.
+                Today, at Google I/O, we...
+              </p>
+            </div>
+          </div>
+          <div class="article-row">
+            <div class="article-section">
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4MPS6LrGVEp7JNEtQ21Htant6vAqK3FcNIDQm2qBF9_E61dFMiffhYObPH7Yyb2blUdwERJy6CgU_nq-QsAUA1RO6WZBXfX-eiZ_gMBRuasQFjguozuKyFaGkKU4xMTYYtiBAfeAcMruEyt5a9YrEyZvU2wd5f5QqbXho3ueninAShn3QZLI0ZmOU/s1600/Android-GoogleIOAndroidStudio_1024x512.png"
+                alt=""
+              />
+              <p>BLOG</p>
+              <h2>
+                <a href=""
+                  >Google I/O 2022: What's new in Android Development Tools</a
+                >
+              </h2>
+              <p>
+                Today at Google I/O 2022, we announced an exciting set of new
+                features available in Android Studio Dolphin Beta and Electric
+                Eel Canary, both available for download. You told us that you
+                want to be more...
+              </p>
+            </div>
+            <div class="article-section">
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjV9RykVMNPi7wNhkdMXSTn14sT_GE3-0m7iHPi6zfEIMlLjUr9I8icC7vKh7u0bTKqpU6PKnMKGufNHfE7QJJjvwU6PcTygM0Umd0sEh3C1lYKkAxyeJfOCJblem10kjPCZWlwpUT6E-ITy1F3AglIvqQAoA6mxcHCUAmjNzXfNXw2lCOLUQvjTHj/s1600/Android13_dpp.png"
+                alt=""
+              />
+              <p>BLOG</p>
+              <h2>
+                <a href="">Second Beta of Android 13</a>
+              </h2>
+              <p>
+                At Google I/O, we talked about everything that's new for
+                developers, including the second Beta of Android 13, which we're
+                releasing today for your testing and feedback. Our program of
+                Beta releases is driven by a...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Tools-Update" class="article">
+      <div class="container">
+        <div class="article-column" id="article">
+          <div class="article-section">
+            <img
+              class="article-icon"
+              src="https://developer.android.com/images/spot-icons/tools-update.svg"
+              alt=""
+            />
+            <h2>Atualizações de ferramentas</h2>
+            <p>
+              As ferramentas mais recentes que ajudam você a criar apps da mais
+              alta qualidade para todos os dispositivos Android.
+            </p>
+            <div class="btn-article">
+              <a href="#">Acessar o Studio</a>
+            </div>
+          </div>
+        </div>
+        <div class="article-column">
+          <div class="article-row">
+            <div class="article-section">
+              <img
+                src="https://www.gstatic.com/devrel-devsite/prod/v99fd0c828fa12c8e4ac5a683d534aa207353ab3b49583792c0a838c031276d00/android/images/dynamic-content-card-default.png"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 7 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+            <div class="article-section">
+              <img
+                src="https://www.gstatic.com/devrel-devsite/prod/v99fd0c828fa12c8e4ac5a683d534aa207353ab3b49583792c0a838c031276d00/android/images/dynamic-content-card-default.png"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 6 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="more">
+      <div class="container">
+        <h2>Veja mais</h2>
+        <div class="shortcuts">
+          <a href="#" class="shortcut">
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <div class="icon">
+              <img
+                src="https://developer.android.com/images/cluster-illustrations/developer-guidance.svg"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="shortcut">
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <div class="icon">
+              <img
+                src="https://developer.android.com/images/cluster-illustrations/samples.svg"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="shortcut">
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <div class="icon">
+              <img
+                src="https://developer.android.com/images/cluster-illustrations/quality-guidelines.svg"
+                alt=""
+              />
+            </div>
+          </a>
+          <a href="#" class="shortcut">
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <div class="icon">
+              <img
+                src="https://developer.android.com/images/cluster-illustrations/launch-app.svg"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="Last-News" class="article">
+      <div class="container">
+        <div class="article-column" id="article">
+          <div class="article-section">
+            <img
+              class="article-icon"
+              src="https://developer.android.com/images/picto-icons/lightbulb.svg"
+              alt=""
+            />
+            <h2>Últimas notícias</h2>
+            <p>Fique por dentro do que está acontecendo no Android.</p>
+            <div class="btn-article">
+              <a href="#">Ver todas as notícias</a>
+            </div>
+          </div>
+        </div>
+        <div class="article-column">
+          <div class="article-row">
+            <div class="article-section">
+              <img
+                src="https://cdn-images-1.medium.com/max/1024/1*JvOP0s4OWIKFhhZBOJcOAw.png"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 7 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+            <div class="article-section">
+              <img
+                src="https://cdn-images-1.medium.com/max/1024/1*Yu-W3qMxx1YyPm_AJMcXGg.png"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 6 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+          </div>
+          <div class="article-row">
+            <div class="article-section">
+              <img
+                src="https://cdn-images-1.medium.com/max/1024/1*iLEtRB3BpIkD6CgjWFP2RQ.png"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 7 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+            <div class="article-section">
+              <img
+                src="https://cdn-images-1.medium.com/max/1024/1*XQmi35H84FdYhY_ONP6ntQ.png"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 6 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Last-Videos" class="article">
+      <div class="container">
+        <div class="article-column" id="article">
+          <div class="article-section">
+            <img
+              class="article-icon"
+              src="https://developer.android.com/images/picto-icons/eye-1.svg"
+              alt=""
+            />
+            <h2>Vídeos mais recentes</h2>
+            <p>
+              Receba as últimas notícias sobre o Android, práticas recomendadas,
+              vídeos ao vivo, demonstrações e tutoriais.
+            </p>
+            <div class="btn-article">
+              <a href="#">Ver todos os vídeos</a>
+            </div>
+          </div>
+        </div>
+        <div class="article-column">
+          <div class="article-row">
+            <div class="article-section">
+              <img
+                src="https://i.ytimg.com/vi/htXyBsNvx78/hqdefault.jpg"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 7 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+            <div class="article-section">
+              <img
+                src="https://i.ytimg.com/vi/KwbUAYtDUO0/hqdefault.jpg"
+                alt=""
+              />
+              <p>STUDIO BLOG</p>
+              <h2>
+                <a href=""
+                  >Android Studio Electric Eel Canary 7 now available</a
+                >
+              </h2>
+              <p>
+                Android Studio - Electric Eel | 2022.1.1 Canary 6 is now
+                available in the Canary and Dev channels. If you already have an
+                Android Studio build on the Canary or Dev channel, you can get
+                the update by clicking Help...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comunity">
+      <div class="container">
+        <h2>Acesse nossa Comunidade</h2>
+        <div class="shortcuts">
+          <a href="#" class="shortcut">
+            <img
+              src="https://developer.android.com/images/logos/stack-overflow.svg"
+              alt=""
+            />
+            <br />
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <button class="btn-comunity">Saiba mais</button>
+          </a>
+          <a href="#" class="shortcut">
+            <img
+              src="https://developer.android.com/images/logos/twitter.svg"
+              alt=""
+            />
+            <br />
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <button class="btn-comunity">Saiba mais</button>
+          </a>
+          <a href="#" class="shortcut">
+            <img
+              src="https://developer.android.com/images/logos/google-developer-logomark-color-square-1000-1000_72.png"
+              alt=""
+            />
+            <br />
+            <h2>Guias do desenvolvedor</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+              sapiente recusandae molestias in similique ipsa excepturi culpa,
+              beatae itaque laudantium!
+            </p>
+            <button class="btn-comunity">Saiba mais</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="follow-us">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://developer.android.com/_static/android/images/logo-twitter.svg"
+              alt=""
+            />
+            <h6>Twitter</h6>
+            <p>Siga <a href="#">@AndroidDev</a> on Twitter</p>
+          </div>
+          <div class="column">
+            <img
+              src="https://www.gstatic.com/images/icons/material/product/2x/youtube_48dp.png"
+              alt=""
+            />
+            <h6>YouTube</h6>
+            <p>Confira <a href="#">Android Developers</a> no YouTube</p>
+          </div>
+          <div class="column">
+            <img
+              src="https://developer.android.com/_static/android/images/logo-linkedin.svg"
+              alt=""
+            />
+            <h6>Linkedin</h6>
+            <p>
+              Conecte-se com a comunidade de desenvolvedores Android no
+              <a href="#">Linkedin</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <ul>
+              <h4>Lorem ipsum</h4>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <h4>Lorem ipsum</h4>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <h4>Lorem ipsum</h4>
+              <li>Lorem</li>
+              <li>Lorem</li>
+
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <h4>Lorem ipsum</h4>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <h4>Lorem ipsum</h4>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <h4>Lorem ipsum</h4>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+        </div>
+        <div id="Google" class="row">
+          <div class="column">
+            <img
+              src="https://www.gstatic.com/devrel-devsite/prod/v99fd0c828fa12c8e4ac5a683d534aa207353ab3b49583792c0a838c031276d00/android/images/lockup-developers.svg"
+              alt=""
+            />
+          </div>
+          <div class="column">
+            <p>Lorem</p>
+          </div>
+          <div class="column">
+            <p>Lorem</p>
+          </div>
+          <div class="column">
+            <p>Lorem</p>
+          </div>
+          <div class="column">
+            <p>Lorem</p>
+          </div>
+          <div class="column">
+            <p>Lorem</p>
+          </div>
+        </div>
+        <div id="License" class="row">
+          <div id="Left" class="column">
+            <a href="#">Privacidade</a>
+            |
+            <a href="#">Licença</a>
+            |
+            <a href="#">Diretrizes de marca</a>
+          </div>
+          <div id="Right" class="column">
+            <p>Receber notícias e dicas por e-mail</p>
+            <div class="btn-footer">
+              <a href="#">Inscrever-se</a>
+            </div>
+            <div>
+              <select name="language">
+                <option value="english">English</option>
+                <option value="português">Português</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
